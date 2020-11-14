@@ -15,6 +15,7 @@
 
         <junit.version>4.13.1</junit.version>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
+        <release.plugin.version>2.5.3</release.plugin.version>
     </properties>
 
     <dependencies>
@@ -36,6 +37,14 @@
                     <source>${project.build.javaVersion}</source>
                     <target>${project.build.javaVersion}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${release.plugin.version}</version>
+                <configuration>
+                    <tagNameFormat>v@{project.version}</tagNameFormat>
                 </configuration>
             </plugin>
         </plugins>
