@@ -41,4 +41,10 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <connection>scm:git:https://github.com/dbelob/github-actions-maven-release-error</connection>
+        <developerConnection>scm:git:https://github.com/dbelob/github-actions-maven-release-error</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 </project>
