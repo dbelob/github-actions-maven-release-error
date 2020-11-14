@@ -5,7 +5,7 @@
 
     <groupId>acme</groupId>
     <artifactId>github-actions-maven-release-error</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <name>github-actions-maven-release-error</name>
 
@@ -44,6 +44,6 @@
     <scm>
         <connection>scm:git:https://github.com/dbelob/github-actions-maven-release-error</connection>
         <developerConnection>scm:git:https://github.com/dbelob/github-actions-maven-release-error</developerConnection>
-        <tag>github-actions-maven-release-error-1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 </project>
