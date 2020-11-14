@@ -5,7 +5,7 @@
 
     <groupId>acme</groupId>
     <artifactId>github-actions-maven-release-error</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
 
     <name>github-actions-maven-release-error</name>
 
